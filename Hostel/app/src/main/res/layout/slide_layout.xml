@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slideImageView"
+        android:layout_width="221dp"
+        android:layout_height="219dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        app:srcCompat="@drawable/h1" />
+
+    <TextView
+        android:id="@+id/slideHeading"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideImageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:text="   Delux "
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/slideDescription"
+        android:layout_width="250dp"
+        android:layout_height="107dp"
+        android:layout_below="@id/slideHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="80dp"
+        android:gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:text="(Fees Rs.26000 Per year) 2 student  in  room with small window.1.Free WIFI service,2.free laundry service,3.RO water filter,4.solar water heater,5.TV for Entertainment"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:gravity="center"
+        android:text="   Apply "
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Hostel</string>
+
+<string name="dormitory">
+        Dormitory(Fees Rs.18000 per year)
+        2 student in room with small window
+
+    </string>
+<string name="semidelux">
+        Semi-Delux(Fees Rs.22000 per year)
+        1 student in room with small window
+
+    </string>
+<string name="delux">
+        Delux(Fees Rs.26000 per year)
+        1 student in room with Large window
+
+    </string>
+    <string name="text_with_paragraphs">
+        Krishna Avenue Hostel.. is a boys hostel.. which is loacated at walking distance from K.K wagh college of engineering,And near to
+        MET BKC IOE,Nashik \n Our Hostel provides you:
+        \n1. Free WIFI service
+        \n2. Free Laundry service
+        \n3. RO water filter
+        \n4. TV for entertainment
+        \n5. Solar water heater
+        \n6. No need to pay electricity bill included in Fees.
+
+
+    </string>
+
+    <string name="dor">Dormitory</string>
+
+
+</resources>
